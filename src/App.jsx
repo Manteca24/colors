@@ -1,10 +1,14 @@
-import './App.css'
+import React from 'react';
+import './App.css';
+import MyFormChallenge from './components/MyFormChallenge';
 
-function App() {
+const App = () => {
   return (
-    <>
-    </>
-  )
-}
+    <div>
+      <h1>Colors</h1>
+      <MyFormChallenge />
+    </div>
+  );
+};
 
-export default App
+export default App;
